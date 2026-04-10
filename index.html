@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chico's Buffet | Experiências Gastronômicas Exclusivas</title>
+    <meta name="description"
+        content="Chico's Buffet: Especialistas em buffet externo de alto luxo. Realizamos seu evento com sofisticação em qualquer lugar.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">CHICO'S<span>BUFFET</span></a>
+            <ul class="nav-list">
+                <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+                <li><a href="#gastronomia" class="nav-link">Gastronomia</a></li>
+                <li><a href="#eventos" class="nav-link">Eventos</a></li>
+                <li><a href="#contato" class="btn btn-outline">Reservar Data</a></li>
+            </ul>
+            <button class="mobile-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-tagline">Buffet Personalizado no estilo do seu evento</span>
+                    <h1 class="hero-title">Transformando <span>sonhos em realidade.</span></h1>
+                    <p class="hero-description">Especialistas em buffet externo de alto luxo para o Espírito Santo. Criamos
+                        experiências gastronômicas inesquecíveis em qualquer cenário.</p>
+                    <div class="hero-actions">
+                        <a href="https://wa.me/5527992344389" class="btn btn-primary">Solicitar Orçamento via WhatsApp</a>
+                        <a href="#eventos" class="btn btn-text">Ver Portfólio <svg width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Nós Section -->
+        <section id="sobre" class="about-section section-padding">
+            <div class="container grid-2">
+                <div class="about-images">
+                    <div class="image-card main-img">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800"
+                            alt="Chico's Buffet Equipe">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">Nossa História</span>
+                    <h2 class="section-title">Excelência em cada detalhe.</h2>
+                    <p>O Chico's Buffet surgiu da paixão por transformar momentos especiais em memórias eternas. Com
+                        anos de experiência no mercado capixaba, nos tornamos referência em buffet externo.</p>
+                    <div class="mission-box">
+                        <h3>Missão</h3>
+                        <p>"Transformar sonhos em realidade com cardápios e experiências gastronômicas adaptadas ao
+                            estilo de cada evento."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Eventos / Galeria Section -->
+        <section id="eventos" class="events-section section-padding">
+            <div class="container">
+                <div class="text-center mb-60">
+                    <span class="section-tag">Portfólio Exclusivo</span>
+                    <h2 class="section-title">Momentos inesquecíveis realizados.</h2>
+                </div>
+                
+                <div class="events-gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1000" alt="Casamento de Luxo">
+                        <div class="gallery-info">
+                            <h3>Casamento Sarah & Lucas</h3>
+                            <span>Buffet Externo Prime</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=1000" alt="Buffet Corporativo">
+                        <div class="gallery-info">
+                            <h3>Lançamento Imobiliário</h3>
+                            <span>Evento Corporativo</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=1000" alt="Festa Privativa">
+                        <div class="gallery-info">
+                            <h3>Aniversário 40 anos</h3>
+                            <span>Buffet Intimista</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?auto=format&fit=crop&q=80&w=800" alt="Buffet de Churrasco">
+                        <div class="gallery-info">
+                            <h3>Churrasco Gourmet</h3>
+                            <span>Evento Campestre</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1470753937643-efad93c239fa?auto=format&fit=crop&q=80&w=1000" alt="Evento Formatura">
+                        <div class="gallery-info">
+                            <h3>Formatura de Medicina</h3>
+                            <span>Banquete de Gala</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1530103043960-ef38714abb15?auto=format&fit=crop&q=80&w=1000" alt="Evento de Natal">
+                        <div class="gallery-info">
+                            <h3>Confraternização Anual</h3>
+                            <span>Evento Empresarial</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-60">
+                    <p class="mb-24">Acompanhe nossas montagens diárias em tempo real.</p>
+                    <a href="https://www.instagram.com/chicosbuffetexterno/" target="_blank" class="btn btn-outline" style="gap: 12px; display: inline-flex; align-items: center;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        Seguir Chico's no Instagram
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats/Experience Section -->
+        <section id="experiencia" class="stats-section section-padding">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="500">0</span>
+                        <span class="stat-label">Eventos Realizados</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="15">0</span>
+                        <span class="stat-label">Anos de Gastronomia</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="100">0</span>
+                        <span class="stat-label">Satisfação Impecável %</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gastronomia" class="gastronomy-section section-padding">
+            <div class="container">
+                <div class="text-center mb-60">
+                    <span class="section-tag">Nossos Serviços</span>
+                    <h2 class="section-title">Especialidades para cada ocasião.</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Casamentos</h3>
+                        <p>Buffet completo e personalizado para o dia mais importante da sua vida.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Eventos Corporativos</h3>
+                        <p>Sofisticação e pontualidade para reuniões e celebrações de gala.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Aniversários</h3>
+                        <p>Cardápios festivos que encantam todas as gerações.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Churrasco Prime</h3>
+                        <p>O melhor do churrasco gourmet para eventos externos e descontraídos.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Formaturas</h3>
+                        <p>Celebre sua conquista com um banquete à altura do seu sucesso.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Personalizados</h3>
+                        <p>Criações exclusivas para eventos temáticos e íntimos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contato" class="contact-section section-padding">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <h2 class="contact-title">Inicie sua celebração exclusiva.</h2>
+                        <p>Nossos especialistas estão prontos para planejar cada detalhe do seu buffet externo.</p>
+                        <div class="whatsapp-card">
+                            <div class="wp-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.937 3.659 1.432 5.631 1.433h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.453-8.413" />
+                                </svg>
+                            </div>
+                            <div class="wp-text">
+                                <span>Atendimento via WhatsApp</span>
+                                <strong>Consultor Chico's</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" id="name" name="name" placeholder="Como podemos te chamar?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">WhatsApp</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(27) 99999-9999" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="event-type">Tipo de Evento</label>
+                                <select id="event-type" name="event-type">
+                                    <option value="casamento">Casamento</option>
+                                    <option value="corporativo">Corporativo</option>
+                                    <option value="aniversario">Aniversário</option>
+                                    <option value="churrasco">Churrasco</option>
+                                    <option value="formatura">Formatura</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="event-date">Data do Evento (Estimada)</label>
+                                <input type="date" id="event-date" name="event-date">
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Número de Convidados</label>
+                                <input type="number" id="guests" name="guests" placeholder="Ex: 150">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Conte-nos sobre seu evento</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Local e outros detalhes especiais..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Solicitar Orçamento</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">CHICO'S<span>BUFFET</span></a>
+                    <p>Referência em alta gastronomia e serviço especializado para eventos em qualquer destino.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#experiencia">Sobre</a></li>
+                        <li><a href="#gastronomia">Gastronomia</a></li>
+                        <li><a href="#eventos">Eventos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Siga-nos</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/chicosbuffetexterno/" target="_blank" aria-label="Siga-nos no Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chico's Buffet. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
